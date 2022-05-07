@@ -30,8 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * Initial release
 
-[Unreleased]: https://github.com/rubocop-semver/rubocop-ruby2_7/compare/v1.0.3...HEAD
-[1.0.3]: https://github.com/rubocop-semver/rubocop-ruby2_7/compare/v1.0.2...v1.0.3
-[1.0.2]: https://github.com/rubocop-semver/rubocop-ruby2_7/compare/v1.0.1...v1.0.2
-[1.0.1]: https://github.com/rubocop-semver/rubocop-ruby2_7/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/rubocop-semver/rubocop-ruby2_7/compare/70d9ab2660620916ed08d1f6057d10fc4f9aa731...v1.0.0
+[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v1.0.2...v1.0.3
+[1.0.2]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/70d9ab2660620916ed08d1f6057d10fc4f9aa731...v1.0.0
