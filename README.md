@@ -16,6 +16,8 @@
     </a>
 </p>
 
+---
+
 NOTE: You might be interested in [`rubocop-lts`](https://github.com/rubocop-lts/rubocop-lts#-how-to-untie-gorgons-knot) which sits as a higher level than this gem, and can keep pace with whatever version of Ruby you happen to be on.
 
 | Gem Name                     | Version                             | Downloads                                                            | CI                                                                | Activity                                                                                                                                              |
