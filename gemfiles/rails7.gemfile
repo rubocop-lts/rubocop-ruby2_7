@@ -4,4 +4,4 @@ source "https://rubygems.org"
 
 gem "rails", "~> 7.0"
 
-eval_gemfile "../Gemfile"
+gemspec path: "../"
