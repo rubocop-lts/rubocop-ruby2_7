@@ -96,8 +96,8 @@ DEPENDENCIES
   pry
   pry-byebug
   pry-debugger-jruby
-  rake
-  rspec
+  rake (~> 13.0)
+  rspec (~> 3.12)
   rubocop-md (~> 1.0)
   rubocop-packaging (~> 0.5)
   rubocop-performance (~> 1.11)
