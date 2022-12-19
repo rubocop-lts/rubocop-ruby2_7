@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-ruby2_7 (1.0.5)
+    rubocop-ruby2_7 (1.1.0)
       rubocop (~> 1.40.0)
 
 GEM
