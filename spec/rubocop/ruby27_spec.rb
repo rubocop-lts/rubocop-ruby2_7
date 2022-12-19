@@ -2,6 +2,6 @@
 
 RSpec.describe Rubocop::Ruby27 do
   it "has a version number" do
-    expect(Rubocop::Ruby27::VERSION).not_to be nil
+    expect(Rubocop::Ruby27::VERSION).not_to be_nil
   end
 end
