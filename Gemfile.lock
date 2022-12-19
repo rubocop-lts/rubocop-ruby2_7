@@ -82,6 +82,9 @@ GEM
     simplecov-lcov (0.8.0)
     simplecov_json_formatter (0.1.4)
     unicode-display_width (2.3.0)
+    webrick (1.7.0)
+    yard (0.9.28)
+      webrick (~> 1.7.0)
 
 PLATFORMS
   x86_64-darwin-22
@@ -106,6 +109,7 @@ DEPENDENCIES
   simplecov-cobertura
   simplecov-json
   simplecov-lcov (~> 0.8)
+  yard
 
 BUNDLED WITH
    2.3.26
