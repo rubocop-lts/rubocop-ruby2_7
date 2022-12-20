@@ -16,8 +16,6 @@ if RUN_COVERAGE
     enable_coverage :branch
     primary_coverage :branch
     add_filter "spec"
-    # Why exclude version.rb? See: https://github.com/simplecov-ruby/simplecov/issues/557#issuecomment-410105995
-    add_filter "lib/rubocop/ruby2_7/version.rb"
     track_files "**/*.rb"
 
     if ALL_FORMATTERS
@@ -26,7 +24,7 @@ if RUN_COVERAGE
       formatter SimpleCov::Formatter::HTMLFormatter
     end
 
-    minimum_coverage(line: 70, branch: 70)
+    minimum_coverage(line: 100, branch: 100)
   end
 else
   puts "Not running coverage on #{RUBY_VERSION}-#{RUBY_ENGINE}"
