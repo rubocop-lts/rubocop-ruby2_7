@@ -10,6 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## [1.1.1] 2022-12-20
+### Fixed
+* Documentation of Three Guarantees:
+  * `rubocop-ruby2_7` (this gem) will install a version of `rubocop` which will
+    **install** on (1), **run** on (2), and **analyze code** (3) intended to support any version of Ruby >= 2.7.
+
 ## [1.1.0] 2022-12-19
 ### Added
 * More Linting Rules
@@ -52,7 +58,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * Initial release
 
-[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v1.0.6...v1.1.0
 [1.0.6]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v1.0.5...v1.0.6
 [1.0.5]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v1.0.4...v1.0.5
