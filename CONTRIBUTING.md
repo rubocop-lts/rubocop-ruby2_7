@@ -26,13 +26,12 @@ See: [RubyGems Security Guide][rubygems-security-guide]
 
 ## Contributors
 
-[![Contributors][🖐contributors-img]][🖐contributors]
+See: [https://gitlab.com/rubocop-lts/rubocop-ruby2_7/-/graphs/main][🖐contributors]
 
 [comment]: <> (Following links are used by README, CONTRIBUTING, Homepage)
 
 [conduct]: https://gitlab.com/rubocop-lts/rubocop-ruby2_7/-/blob/main/CODE_OF_CONDUCT.md
 [🖐contributors]: https://gitlab.com/rubocop-lts/rubocop-ruby2_7/-/graphs/main
-[🖐contributors-img]: https://img.shields.io/github/contributors-anon/rubocop-lts/rubocop-ruby2_7
 [🚎src-main]: https://gitlab.com/rubocop-lts/rubocop-ruby2_7/-/tree/main
 [🏘chat]: https://gitter.im/rubocop-lts/community
 [rubygems-security-guide]: https://guides.rubygems.org/security/#building-gems
