@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 ## [1.1.3] 2023-03-14
+### Added
+* GitLab CI config
 ### Changed
 * Upgraded to RuboCop v1.48.1
 
