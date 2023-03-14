@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## [1.1.3] 2023-03-14
+### Changed
+* Upgraded to RuboCop v1.48.1
+
 ## [1.1.2] 2023-02-01
 ### Fixed
 * Stop defining global variable in version.rb
