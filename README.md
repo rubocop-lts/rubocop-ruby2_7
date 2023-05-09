@@ -23,7 +23,7 @@ NOTE: You might be interested in [`rubocop-lts`](https://github.com/rubocop-lts/
 | Gem Name                     | Version                             | Downloads                                                            | CI                                                                | Activity                                                                                                                                              |
 |------------------------------|-------------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`rubocop-lts`][⛳️lts-gh]    | [![Gem Version][⛳️lts-vi]][⛳️lts-g] | [![Total DL][🖇️lts-dti]][⛳️lts-g] [![DL Rank][🏘️lts-rti]][⛳️lts-g] | [![Current][🚎lts-cwfi]][🚎lts-cwf]                               | [![Open Issues][📗lts-ioi]][📗lts-io] [![Closed Issues][🚀lts-ici]][🚀lts-ic] [![Open PRs][💄lts-poi]][💄lts-po] [![Closed PRs][👽lts-pci]][👽lts-pc] |
-| [`rubocop-ruby2_7`][⛳️27-gh] | [![Gem Version][⛳️27-vi]][⛳️27-g]   | [![Total DL][🖇️27-dti]][⛳️27-g] [![DL Rank][🏘️27-rti]][⛳️27-g]     | [![Current][🚎27-cwfi]][🚎27-cwf] [![Heads][🖐27-hwfi]][🖐27-hwf] | [![Open Issues][📗27-ioi]][📗27-io] [![Closed Issues][🚀27-ici]][🚀27-ic] [![Open PRs][💄27-poi]][💄27-po] [![Closed PRs][👽27-pci]][👽27-pc]         |
+| [`rubocop-ruby2_7`][⛳️ini-gh] | [![Gem Version][⛳️ini-vi]][⛳️ini-g]   | [![Total DL][🖇️ini-dti]][⛳️ini-g] [![DL Rank][🏘️ini-rti]][⛳️ini-g]     | [![Current][🚎ini-cwfi]][🚎ini-cwf] [![Heads][🖐ini-hwfi]][🖐ini-hwf] | [![Open Issues][📗ini-ioi]][📗ini-io] [![Closed Issues][🚀ini-ici]][🚀ini-ic] [![Open PRs][💄ini-poi]][💄ini-po] [![Closed PRs][👽ini-pci]][👽ini-pc]         |
 
 <!-- columnar badge #s for Project Health table:
 ⛳️
@@ -58,25 +58,25 @@ NOTE: You might be interested in [`rubocop-lts`](https://github.com/rubocop-lts/
 [⛳️lts-g]: https://rubygems.org/gems/rubocop-lts
 [⛳️lts-gh]: https://github.com/rubocop-lts/rubocop-lts
 
-[⛳️27-vi]: http://img.shields.io/gem/v/rubocop-ruby2_7.svg
-[🖇️27-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_7.svg
-[🏘️27-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_7.svg
-[🚎27-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/current.yml
-[🚎27-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/current.yml/badge.svg
-[🖐27-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/heads.yml
-[🖐27-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/heads.yml/badge.svg
-[🧮27-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/legacy.yml
-[🧮27-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/legacy.yml/badge.svg
-[📗27-io]: https://github.com/rubocop-lts/rubocop-ruby2_7/issues
-[📗27-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_7
-[🚀27-ic]: https://github.com/rubocop-lts/rubocop-ruby2_7/issues?q=is%3Aissue+is%3Aclosed
-[🚀27-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_7
-[💄27-po]: https://github.com/rubocop-lts/rubocop-ruby2_7/pulls
-[💄27-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_7
-[👽27-pc]: https://github.com/rubocop-lts/rubocop-ruby2_7/pulls?q=is%3Apr+is%3Aclosed
-[👽27-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_7
-[⛳️27-g]: https://rubygems.org/gems/rubocop-ruby2_7
-[⛳️27-gh]: https://github.com/rubocop-lts/rubocop-ruby2_7
+[⛳️ini-vi]: http://img.shields.io/gem/v/rubocop-ruby2_7.svg
+[🖇️ini-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_7.svg
+[🏘️ini-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_7.svg
+[🚎ini-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/current.yml
+[🚎ini-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/current.yml/badge.svg
+[🖐ini-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/heads.yml
+[🖐ini-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/heads.yml/badge.svg
+[🧮ini-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/legacy.yml
+[🧮ini-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/legacy.yml/badge.svg
+[📗ini-io]: https://github.com/rubocop-lts/rubocop-ruby2_7/issues
+[📗ini-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_7
+[🚀ini-ic]: https://github.com/rubocop-lts/rubocop-ruby2_7/issues?q=is%3Aissue+is%3Aclosed
+[🚀ini-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_7
+[💄ini-po]: https://github.com/rubocop-lts/rubocop-ruby2_7/pulls
+[💄ini-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_7
+[👽ini-pc]: https://github.com/rubocop-lts/rubocop-ruby2_7/pulls?q=is%3Apr+is%3Aclosed
+[👽ini-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_7
+[⛳️ini-g]: https://rubygems.org/gems/rubocop-ruby2_7
+[⛳️ini-gh]: https://github.com/rubocop-lts/rubocop-ruby2_7
 
 # 🦾 Rubocop::Ruby27
 
@@ -172,7 +172,7 @@ They can be used as development dependencies for libraries or applications.
 - [`rubocop-ruby2_4`][rr24]
 - [`rubocop-ruby2_5`][rr25]
 - [`rubocop-ruby2_6`][rr26]
-- [`rubocop-ruby2_7`][rr27]
+- [`rubocop-ruby2_7`][rrini]
 - [`rubocop-ruby3_0`][rr30]
 - [`rubocop-ruby3_1`][rr31]
 
@@ -184,7 +184,7 @@ They can be used as development dependencies for libraries or applications.
 [rr24]: https://gitlab.com/rubocop-lts/rubocop-ruby2_4
 [rr25]: https://gitlab.com/rubocop-lts/rubocop-ruby2_5
 [rr26]: https://gitlab.com/rubocop-lts/rubocop-ruby2_6
-[rr27]: https://gitlab.com/rubocop-lts/rubocop-ruby2_7
+[rrini]: https://gitlab.com/rubocop-lts/rubocop-ruby2_7
 [rr30]: https://gitlab.com/rubocop-lts/rubocop-ruby3_0
 [rr31]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1
 [what1_8]: https://gitlab.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
