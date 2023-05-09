@@ -19,10 +19,6 @@ jobs:
         experimental: [false]
         gemfile:
           - style
-        rubygems:
-          - latest
-        bundler:
-          - latest
         ruby:
           - "2.7"
     runs-on: ubuntu-latest

@@ -34,10 +34,6 @@ jobs:
         experimental: [false]
         gemfile:
           - coverage
-        rubygems:
-          - latest
-        bundler:
-          - latest
         ruby:
           - "2.7"
 
