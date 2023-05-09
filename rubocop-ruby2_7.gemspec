@@ -7,7 +7,7 @@ gem_version = Rubocop::Ruby27::VERSION
 Rubocop::Ruby27.send(:remove_const, :VERSION)
 
 Gem::Specification.new do |spec|
-  spec.name = "rubocop-lts-ruby2_7"
+  spec.name = "rubocop-ruby2_7"
   spec.version = gem_version
   spec.authors = ["Peter Boling"]
   spec.email = ["peter.boling@gmail.com"]
