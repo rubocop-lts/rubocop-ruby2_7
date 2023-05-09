@@ -126,8 +126,7 @@ way that aligns with the the desired minimum compatible/supported Ruby version.
 ## 💎 Ruby Version Support
 
 Adding this gem will facilitate the best practice of adding a `~> ` version constrained `rubocop`(-ish) dependency, while
-minimizing the risk of a rubocop minor / patch upgrade breaking the build. See the
-official [compatibility matrix][rubocop-support-matrix] for `rubocop`.
+minimizing the risk of a rubocop minor / patch upgrade breaking the build.
 
 ### What's that you say?
 
@@ -193,10 +192,13 @@ They can be used as development dependencies for libraries or applications.
 ## 🗿 Stable
 
 All releases of this gem are stable releases.
-We do not release new versions for every release of `rubocop`.
+We do not release new versions for every release of `rubocop`, 
+as this gem is tied to [`standard`][standard].
 A typical release cycle for a gem in the `rubocop-lts` family is roughly every six months,
 though eventually analysis support for an old version of Ruby will be dropped.
 When that happens releases of the `rubocop-lts` gem for that version of Ruby will (mostly) cease.
+
+[standard]: https://github.com/standardrb/standard
 
 ## ✨ Installation
 
@@ -212,14 +214,15 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 The following is optional.  We'll discuss why you might want to do this after you see what it does.
 
-Add to the top of your project's `.rubocop.yml` configuration file:
+If you are using Rails, building a Rubygem, or not using RSpec, see ["Advanced Usage"][#advanced-usage].
+Otherwise, if you use plain Ruby and RSpec, you can add to the top of your project's `.rubocop.yml` configuration file:
 
 ```yaml
 inherit_gem:
   rubocop-ruby2_7: rubocop.yml
 ```
 
-This has the same effect as you declaring the following in your `.rubocop.yml`:
+Among _many_ other settings, this has the effect of declaring the following:
 
 ```yaml
 AllCops:
@@ -238,7 +241,7 @@ Allowing this gem to manage the target ruby version means you can switch to a di
 
 You may not use this setting in your project yet.  Upgrades to the latest RuboCop can include all kinds of changes, including removing support for the version of Ruby your project uses, or adding a cop that may not work with some of your syntax (e.g. [some use cases of 'module_function`](https://github.com/rubocop/rubocop/issues/5953#issuecomment-805921993)).  Accepting new cops arriving in a new version of RuboCop can feel risky, especially when it doesn't follow SemVer.
 
-But this gem shoehorns rubocop into SemVer... so `NewCops` is now safe(r)!  If you use a dependency greening tool like GitHub's `dependabot`, or the excellent alternatives [depfu](https://depfu.com/), and [`renovate`](https://www.whitesourcesoftware.com/free-developer-tools/renovate/), then you can see the effect of a minor / major version bumpin your CI Build!
+But this gem shoehorns RuboCop into SemVer, under the watchful eye of [`standard`][standard]... so `NewCops` is now safe(r)!  If you use a dependency greening tool like GitHub's `dependabot`, or the excellent alternatives [depfu](https://depfu.com/), and [`renovate`](https://www.whitesourcesoftware.com/free-developer-tools/renovate/), then you can see the effect of a minor / major version bump in your CI Build!
 
 ## Advanced Usage
 
