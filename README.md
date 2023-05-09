@@ -208,7 +208,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
     $ gem install rubocop-ruby2_7
 
-## 🔧 Usage
+## 🔧 Basic Usage
 
 The following is optional.  We'll discuss why you might want to do this after you see what it does.
 
@@ -239,6 +239,52 @@ Allowing this gem to manage the target ruby version means you can switch to a di
 You may not use this setting in your project yet.  Upgrades to the latest RuboCop can include all kinds of changes, including removing support for the version of Ruby your project uses, or adding a cop that may not work with some of your syntax (e.g. [some use cases of 'module_function`](https://github.com/rubocop/rubocop/issues/5953#issuecomment-805921993)).  Accepting new cops arriving in a new version of RuboCop can feel risky, especially when it doesn't follow SemVer.
 
 But this gem shoehorns rubocop into SemVer... so `NewCops` is now safe(r)!  If you use a dependency greening tool like GitHub's `dependabot`, or the excellent alternatives [depfu](https://depfu.com/), and [`renovate`](https://www.whitesourcesoftware.com/free-developer-tools/renovate/), then you can see the effect of a minor / major version bumpin your CI Build!
+
+## Advanced Usage
+
+### Linting Ruby + RSpec
+
+```yaml
+inherit_gem:
+  rubocop-ruby2_7: rubocop-lts/ruby_rspec.yml
+  # Note: technically the above is the same as the "Basic Usage" below, so if specificity is not your jam:
+#  rubocop-ruby2_7: rubocop.yml
+```
+
+### Linting Ruby w/o RSpec
+
+```yaml
+inherit_gem:
+  rubocop-ruby2_7: rubocop-lts/ruby.yml
+```
+
+### Linting Rails + RSpec
+
+```yaml
+inherit_gem:
+  rubocop-ruby2_7: rubocop-lts/rails_rspec.yml
+```
+
+#### Linting Rails w/o RSpec
+
+```yaml
+inherit_gem:
+  rubocop-ruby2_7: rubocop-lts/rails.yml
+```
+
+#### Linting a RubyGem + RSpec
+
+```yaml
+inherit_gem:
+  rubocop-ruby2_7: rubocop-lts/rubygem_rspec.yml
+```
+
+#### Linting a RubyGem w/o RSpec
+
+```yaml
+inherit_gem:
+  rubocop-ruby2_7: rubocop-lts/rubygem.yml
+```
 
 ## 💻 Development
 
