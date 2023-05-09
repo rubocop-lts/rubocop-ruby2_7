@@ -10,10 +10,11 @@ require:
   # Standard's config uses custom cops,
   # so it must be loaded here
   - standard
+  # RuboCop performance is handled by standard above
+  # - rubocop-performance
   # The goal here is convention over configuration...
   # In light of that, we are well past having convened on Markdown for READMEs and such.
   - rubocop-md
-  - rubocop-performance
   # Rubygems have Rakefile as a convention, and if they don't, why not?
   - rubocop-rake
   # In the vast majority of cases, we will want to be warned about thread unsafe code.

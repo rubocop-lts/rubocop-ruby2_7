@@ -10,6 +10,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## [2.0.0] 2023-04-09
+### Changed
+- New/Better configs for:
+  - rubocop
+  - rubocop-gradual
+  - rubocop-md
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-shopify
+  - rubocop-thread_safety
+  - standard
+- And optionally, if you are using RSpec:
+  - rubocop-rspec
+- And optionally, if you are using building a RubyGem:
+  - rubocop-packaging
+
 ## [1.1.3] 2023-03-14
 ### Added
 * GitLab CI config

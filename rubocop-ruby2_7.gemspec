@@ -51,14 +51,13 @@ Gem::Specification.new do |spec|
 
   # linting
   spec.add_dependency("rubocop-gradual", "~> 0.3")
-  spec.add_dependency("rubocop-lts", ">= 17") # allows Ruby 2.7+
   spec.add_dependency("rubocop-md", "~> 1.2")
-  spec.add_dependency("rubocop-performance", "~> 1.16")
   spec.add_dependency("rubocop-rake", "~> 0.6")
   spec.add_dependency("rubocop-rspec", "~> 2.22")
-  spec.add_dependency("rubocop-shopify", "~> 2.12")
+  spec.add_dependency("rubocop-shopify", "~> 2.13")
   spec.add_dependency("rubocop-thread_safety", "~> 0.5")
-  spec.add_dependency "standard", ["~> 1.26", "< 2"]
+  # standard pulls in rubocop-performance
+  spec.add_dependency "standard", ["~> 1.28", "< 2"]
 
   # RubyGems adding this gem will need to add this gem to their dependencies.
   # Since it only applies to rubygems we do not add it as a runtime dependency of this gem.
