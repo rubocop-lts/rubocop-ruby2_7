@@ -41,66 +41,66 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.3] 2023-03-14
 ### Added
-* GitLab CI config
+- GitLab CI config
 ### Changed
-* Upgraded to RuboCop v1.48.1
+- Upgraded to RuboCop v1.48.1
 
 ## [1.1.2] 2023-02-01
 ### Fixed
-* Stop defining global variable in version.rb
+- Stop defining global variable in version.rb
 ### Changed
-* Upgraded to RuboCop v1.44.1
-  * Compatible with rubocop-packaging ~> 0.5.2
-* Improved development documentation
-* Improved documentation on SemVer adherence
+- Upgraded to RuboCop v1.44.1
+  - Compatible with rubocop-packaging ~> 0.5.2
+- Improved development documentation
+- Improved documentation on SemVer adherence
 
 ## [1.1.1] 2022-12-20
 ### Fixed
-* Documentation
+- Documentation
 ### Changed
-* Minimum code coverage == 100%
+- Minimum code coverage == 100%
 
 ## [1.1.0] 2022-12-19
 ### Added
-* More Linting Rules
-* Improved Rakefile for YARD docs
-* Improved Documentation related to Three Guarantees
-* Updated Ruby Version Support in Readme
-* Improved documentation
+- More Linting Rules
+- Improved Rakefile for YARD docs
+- Improved Documentation related to Three Guarantees
+- Updated Ruby Version Support in Readme
+- Improved documentation
 ### Changed
-* Rubocop => RuboCop typo repair in documentation
+- Rubocop => RuboCop typo repair in documentation
 
 ## [1.0.6] 2022-06-08
 ### Changed
-* Update to rubocop 1.30.1
-* Removed test_files from gemspec
-* Add binstubs for bundle, rake, rspec, and rubocop
+- Update to rubocop 1.30.1
+- Removed test_files from gemspec
+- Add binstubs for bundle, rake, rspec, and rubocop
 
 ## [1.0.5] 2022-06-05
 ### Changed
-* Update to rubocop 1.30.0
+- Update to rubocop 1.30.0
 
 ## [1.0.4] 2022-05-23
 ### Changed
-* Update to rubocop 1.29.1
+- Update to rubocop 1.29.1
 
 ## [1.0.3] 2022-05-23
 ### Added
-* Rubocop => RuboCop typo repair
-* Ruby Version Support Matrix
-* Improved documentation
+- Rubocop => RuboCop typo repair
+- Ruby Version Support Matrix
+- Improved documentation
 
 ## [1.0.2] 2022-05-03
 ### Fixed
-* Added missing rubocop.yml for inherit_gem directive
+- Added missing rubocop.yml for inherit_gem directive
 
 ## [1.0.1] 2022-05-02
 ### Added
-* Documentation
+- Documentation
 
 ## [1.0.0] 2022-05-01
 ### Added
-* Initial release
+- Initial release
 
 [Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v2.0.1...HEAD
 [2.0.1]: https://github.com/rubocop-lts/rubocop-ruby2_7/compare/v2.0.0...v2.0.1
