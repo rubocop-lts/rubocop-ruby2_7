@@ -39,6 +39,8 @@ Metrics:
 plugins:
   # Rubygems have Rakefile as a convention, and if they don't, why not?
   - rubocop-rake
+  # Warn about thread unsafe code in the broad LTS Ruby profile.
+  - rubocop-thread_safety
 
 # Ruby specific customizations
 Layout/LineLength:
